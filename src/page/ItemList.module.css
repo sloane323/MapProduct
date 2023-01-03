@@ -1,0 +1,18 @@
+.itemListbox{
+    width: 100%;
+    text-align: center;
+    vertical-align:middle;
+    margin:auto
+}
+
+.seemore {
+    width: 100%;
+    display: flexbox;
+    position: relative;
+    left: -250px;
+}
+.itemListbox button {
+margin: 10px;
+border: none;
+}
+

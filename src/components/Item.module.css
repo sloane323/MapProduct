@@ -1,0 +1,25 @@
+.cardboxWarp {
+    display: inline-block; /* inline-block일때에만 가운데 정렬 가능 */
+}
+.cardbox{
+    display: flex;
+    position: relative;
+    float: left;
+    background-color: lightgray;
+    margin: 2px;
+    width: 200px;
+    height: 300px;
+
+}
+
+.imgbox {
+    object-fit: cover;
+}
+
+	
+.imgbox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
